@@ -1,35 +1,69 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Register Page</title>
-        <link rel="stylesheet" href="styleForm.css">
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Welcome</title>
+    <link rel="stylesheet" href="styleHome.css" />
+  </head>
+  <body>
 
-    <body>
-        <div class="header-container">
-        </div>
-        <div class="text">
-            <h1 class="main text">
-                <strong>Welcome Stranger!</strong>
-            </h1>
-            <p>May the Force be with You</p>
-        </div>
-        <br/>    
-        <div class="form-container">
-            <form method="post">
-                <div class="mb-3">
-                    <input class="form-control" type="text" name="name" placeholder="Your Name" /> 
-                </div>
-                <div class="mb-3">
-                    <input class="form-control" type="email" name="email" placeholder="Your E-mail" /> 
-                </div>
-                <div class="mb-3">
-                    <input class="form-control" type="password" name="password" placeholder="Your Password" /> 
-                </div>
-                <br/>
-                <div class="mb-2">
-                    <input type="button" value="Create Account">
-                </div>
-            </form>
-        </div>
-    </body>
+    <div class="search-box">
+      <input type="text" placeholder="Search here..." />
+    </div>
+
+    <div class="nav-container">
+      <div class="wrapper">
+        <nav>
+          <div class="logo">
+            BB8.
+          </div>
+
+          <ul class="nav-items">
+            <li>
+              <a href="#">Home</a>
+            </li>
+
+            <li>
+              <a href="#">About</a>
+            </li>
+
+            <li>
+              <a href="#">Login</a>
+            </li>
+
+            <li>
+              <a class="nav-btn-container" href="#">
+                <img class="search-btn" src="images/search-icon.svg" alt="" />
+                <img class="close-btn" src="images/close-icon.svg" alt="" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="header-container">
+      <div class="wrapper">
+        <header>
+
+          <div class="hero-content">
+            <h1>Welcome Strangers!</h1>
+            <p>
+              May the Force be with You
+            </p>
+              <a href="Form.html">Register Here</a>
+          </div>
+
+          <div class="hero-image">
+            <img src="images/bb8.svg" alt="" />
+            <div class="photo-bg"></div>
+          </div>
+        </header>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
 </html>
